@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+PackageIdentifier: Hululsoft.Nezzel
+PackageVersion: 0.1.0
+InstallerType: nullsoft
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2026-11-20
+# UNVERIFIED: ARP values derived from the Tauri NSIS template (installer.nsi), not from an installed copy.
+# Publisher is "ahmed" because tauri.conf.json sets no `publisher` (Tauri falls back to identifier segment 2).
+AppsAndFeaturesEntries:
+- DisplayName: Nezzel
+  Publisher: ahmed
+  ProductCode: Nezzel
+  InstallerType: nullsoft
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/ahmed-abdat/nezzel-desktop/releases/download/app-v0.1.0/Nezzel_0.1.0_x64-setup.exe
+  InstallerSha256: 6CCE1CCC2741D74A1882E38AF2E2CB56E496807B9830A1F6A031622DF135DB1D
+- Architecture: arm64
+  InstallerUrl: https://github.com/ahmed-abdat/nezzel-desktop/releases/download/app-v0.1.0/Nezzel_0.1.0_arm64-setup.exe
+  InstallerSha256: 2EA1ABC3937BCFACD87E56639185456134E2B026EEC62BFFF26E7F4483AF89BD
+ManifestType: installer
+ManifestVersion: 1.28.0
