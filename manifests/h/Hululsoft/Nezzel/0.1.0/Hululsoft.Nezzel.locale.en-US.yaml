@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+PackageIdentifier: Hululsoft.Nezzel
+PackageVersion: 0.1.0
+PackageLocale: en-US
+Publisher: Hululsoft
+PublisherUrl: https://nezzel.hululsoft.mr/desktop/
+PublisherSupportUrl: https://github.com/ahmed-abdat/nezzel-desktop/issues
+PrivacyUrl: https://github.com/ahmed-abdat/nezzel-desktop/blob/main/PRIVACY.md
+Author: Ahmed Abdat
+PackageName: Nezzel
+PackageUrl: https://nezzel.hululsoft.mr/desktop/
+License: AGPL-3.0-or-later
+LicenseUrl: https://github.com/ahmed-abdat/nezzel-desktop/blob/main/LICENSE
+Copyright: Copyright (c) Nezzel contributors
+ShortDescription: Free, open-source app that saves videos, audio and photos from links from many sites.
+Description: |-
+  Nezzel is a free, open-source desktop app that saves videos, audio and photos from links, from many sites.
+  It is available in Arabic, English and French. It updates itself when a new version is released.
+Moniker: nezzel
+Tags:
+- downloader
+- video-downloader
+- audio
+- photos
+- open-source
+- yt-dlp
+- arabic
+ReleaseNotesUrl: https://github.com/ahmed-abdat/nezzel-desktop/releases/tag/app-v0.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0
