@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.28.0.schema.json
+PackageIdentifier: Hululsoft.Nezzel
+PackageVersion: 0.1.0
+PackageLocale: fr
+Publisher: Hululsoft
+PackageName: Nezzel
+ShortDescription: Application gratuite et open source qui enregistre des vidéos, de l'audio et des photos à partir de liens, depuis de nombreux sites.
+Description: |-
+  Nezzel est une application de bureau gratuite et open source qui enregistre des vidéos, de l'audio et des photos à partir de liens, depuis de nombreux sites.
+  Elle est disponible en arabe, en anglais et en français, et se met à jour toute seule à chaque nouvelle version.
+ManifestType: locale
+ManifestVersion: 1.28.0
