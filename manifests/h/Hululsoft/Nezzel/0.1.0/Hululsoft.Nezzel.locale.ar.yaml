@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.28.0.schema.json
+PackageIdentifier: Hululsoft.Nezzel
+PackageVersion: 0.1.0
+PackageLocale: ar
+Publisher: Hululsoft
+PackageName: Nezzel
+ShortDescription: تطبيق مجاني ومفتوح المصدر يحفظ الفيديو والصوت والصور من الروابط، من مواقع كثيرة.
+Description: |-
+  نزّل تطبيق مجاني ومفتوح المصدر لسطح المكتب يحفظ الفيديو والصوت والصور من الروابط، من مواقع كثيرة.
+  يتوفر بالعربية والإنجليزية والفرنسية، ويحدّث نفسه عند صدور إصدار جديد.
+ManifestType: locale
+ManifestVersion: 1.28.0
